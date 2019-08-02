@@ -1,0 +1,25 @@
+# Piggy .js & .sh
+
+```
+  ,,_  
+ o"  )~   Piggy .js & .sh
+  '''' 
+```
+
+Using from Unix terminal:
+```sh
+echo 'H4sIAIqZRF0AA1WP0U6DMBSG789T/CFkuowaBlviTZ+EEafbmWusbVdAYUaf3ULRZL3q/52v/0ld
+ta5lAmTZE4CEXFWM2e4CW/5MoJyEu3CisJlyEP7AdhZGFsAg963rWmhluNlTP8eD1SFpbtHLXjxm
+gxzEJjOypDhWH6qZr51DOiCPiY/0eVaa71vf8ZKO9kZK+6nyKgc6WQ8FZbBGgdTcmtd/c7Ui55Vp
+T0jSL1elqv5OgmuYqvAK4pWxhbDBh+BLKKuxWMDIYpxHlkf24vn5Lf5IiMyE4kYzO+QPZSyM6431
+78SHs6Vfb6yr520BAAA=' | base64 -d | zcat | bash /dev/stdin
+```
+
+Using from Web Browser Console:
+```js
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.innerHTML = atob('ZnVuY3Rpb24gcGlnZ3koYT01KXt2YXIgYj0oYSxiKT0+TWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpKihiLWErMSkpK2EsYz0zLGQ9TWF0aC5mbG9vcihhKSxlPWRvY3VtZW50LGY9d2luZG93LGc9ZS5jcmVhdGVFbGVtZW50KCJzcGFuIiksaj1lLmRvY3VtZW50RWxlbWVudCxrPWcuc3R5bGUsbT1lLmJvZHksbj1tLmNsaWVudFdpZHRoLG89bS5jbGllbnRIZWlnaHQsaD1bIiAsLF9cbm9cIiAgKX5cbiAnJycnIiwiICwsX1xub1wiICApflxuIFwiICcnIiwiICwsX1xub1wiICApflxuICcnIFwiIl07Zy50ZXh0Q29udGVudD1oWzBdLGsuYWxsPSJ1bnNldCIsay5wb3NpdGlvbj0iYWJzb2x1dGUiLGsud2hpdGVTcGFjZT0icHJlIixrLmZvbnRGYW1pbHk9Im1vbm9zcGFjZSIsay5mb250U2l6ZT0iMmVtIixrLmxpbmVIZWlnaHQ9IjEuMmVtIixrLnpJbmRleD05OTk5LGsudGV4dFNoYWRvdz0iNXB4IDVweCAxMHB4ICMwMDAiLG0uYXBwZW5kQ2hpbGQoZyk7dmFyIHA9bi1nLmNsaWVudFdpZHRoLWMsbD1vLWcuY2xpZW50SGVpZ2h0LWM7ay5sZWZ0PXArInB4IixrLnRvcD1sKyJweCI7dmFyIHE9MCxyPXAscz1sLHQ9c2V0SW50ZXJ2YWwoKCk9PntnLnRleHRDb250ZW50PWhbcV0scz1sK2IoLTEqYyxjKSxrLmxlZnQ9cisicHgiLGsudG9wPXMrInB4IixxKyssci09ZCxxPj1oLmxlbmd0aCYmKHE9MCksLTEwMD5yJiYoY2xlYXJJbnRlcnZhbCh0KSxtLnJlbW92ZUNoaWxkKGcpKX0sMzAwKX0=');
+document.head.appendChild(script);
+piggy(5);
+```
